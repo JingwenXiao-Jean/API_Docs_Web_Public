@@ -1,0 +1,1828 @@
+{
+	"tree": [
+		{
+			"id": "property",
+			"name": "Property",
+			"children": [
+				{
+					"id": "static",
+					"name": "Static",
+					"children": [
+						{
+							"id": "basic-info",
+							"name": "Basic Info",
+							"children": [
+								{
+									"id": "basic-info",
+									"name": "Basic Info",
+									"endpointId": "getPropertyBasicInfo"
+								},
+								{
+									"id": "address",
+									"name": "Address",
+									"endpointId": "getPropertyAddress"
+								},
+								{
+									"id": "strata-info",
+									"name": "Strata Info",
+									"endpointId": "getPropertyStrata"
+								},
+								{
+									"id": "council",
+									"name": "Council",
+									"endpointId": "getPropertyCouncil"
+								},
+								{
+									"id": "feature-info",
+									"name": "Feature Info",
+									"endpointId": "getPropertyFeature"
+								},
+								{
+									"id": "property-type",
+									"name": "Property Type",
+									"endpointId": "getPropertyType"
+								},
+								{
+									"id": "floor-type",
+									"name": "Property Floor Type",
+									"endpointId": "getPropertyFloorType"
+								},
+								{
+									"id": "special-type",
+									"name": "Property Special Type",
+									"endpointId": "getPropertySpecialType"
+								}
+							]
+						},
+						{
+							"id": "sales-consultant",
+							"name": "Sales Consultant",
+							"children": [
+								{
+									"id": "property-sales-consultant",
+									"name": "Property Sales Consultant",
+									"endpointId": "getPropertySalesConsultant"
+								}
+							]
+						},
+						{
+							"id": "owners",
+							"name": "Owners",
+							"children": [
+								{
+									"id": "property-owners",
+									"name": "Property Owners",
+									"endpointId": "getPropertyOwners"
+								}
+							]
+						},
+						{
+							"id": "manager-info",
+							"name": "Manager Info",
+							"children": [
+								{
+									"id": "property-manager",
+									"name": "Property Manager",
+									"endpointId": "getPropertyManager"
+								},
+								{
+									"id": "building-manager",
+									"name": "Building Manager",
+									"endpointId": "getBuildingManager"
+								}
+							]
+						},
+						{
+							"id": "key-info",
+							"name": "Key Info",
+							"children": [
+								{
+									"id": "key-ring-list",
+									"name": "Property Key Ring List",
+									"endpointId": "getPropertyKeyRingList"
+								},
+								{
+									"id": "key-ring-detail",
+									"name": "Property Key Ring Detail",
+									"endpointId": "getPropertyKeyRingDetail"
+								},
+								{
+									"id": "property-key",
+									"name": "Property Key",
+									"endpointId": "getPropertyKeys"
+								}
+							]
+						},
+						{
+							"id": "sale-record",
+							"name": "For Sale Record",
+							"children": [
+								{
+									"id": "property-sale-record",
+									"name": "Property Sale Record Info",
+									"endpointId": "getPropertySaleRecordInfo"
+								}
+							]
+						},
+						{
+							"id": "inventory-info",
+							"name": "Inventory Info",
+							"children": [
+								{
+									"id": "property-inventory-info",
+									"name": "Property Inventory Info",
+									"endpointId": "getPropertyInventoryInfo"
+								},
+								{
+									"id": "inventory-name",
+									"name": "Property Inventory Name",
+									"endpointId": "getPropertyInventoryName"
+								},
+								{
+									"id": "inventory-type",
+									"name": "Property Inventory Type",
+									"endpointId": "getPropertyInventoryType"
+								}
+							]
+						},
+						{
+							"id": "compliance-info",
+							"name": "Compliance Info",
+							"children": [
+								{
+									"id": "smoke-alarm",
+									"name": "Smoke Alarms",
+									"endpointId": "getPropertySmokeAlarmCompliance"
+								},
+								{
+									"id": "electricity",
+									"name": "Electricity",
+									"endpointId": "getPropertyElectricityCompliance"
+								},
+								{
+									"id": "gas",
+									"name": "Gas",
+									"endpointId": "getPropertyGasCompliance"
+								},
+								{
+									"id": "water",
+									"name": "Water",
+									"endpointId": "getPropertyWaterCompliance"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "workflow",
+					"name": "Workflow",
+					"children": [
+						{
+							"id": "property-status",
+							"name": "Property Status",
+							"children": [
+								{
+									"id": "status",
+									"name": "Property Status",
+									"endpointId": "getPropertyStatus"
+								}
+							]
+						},
+						{
+							"id": "market-rent",
+							"name": "Market Rent Record",
+							"children": [
+								{
+									"id": "market-rent-record",
+									"name": "Market Rent Record",
+									"endpointId": "getPropertyMarketRentRecord"
+								}
+							]
+						},
+						{
+							"id": "marketing-info",
+							"name": "Marketing Info",
+							"children": [
+								{
+									"id": "marketing-info",
+									"name": "Marketing Info",
+									"endpointId": "getPropertyMarketingInfo"
+								}
+							]
+						},
+						{
+							"id": "warranties",
+							"name": "Warranties",
+							"children": [
+								{
+									"id": "inventory-warranties",
+									"name": "Inventory Warranties",
+									"endpointId": "getInventoryWarranties"
+								}
+							]
+						},
+						{
+							"id": "defect",
+							"name": "Defect",
+							"children": [
+								{
+									"id": "defect-log",
+									"name": "Defect Log",
+									"endpointId": "getDefectLog"
+								}
+							]
+						},
+						{
+							"id": "leasing",
+							"name": "Leasing",
+							"children": [
+								{
+									"id": "lease-history",
+									"name": "Property Lease History",
+									"endpointId": "getPropertyLeaseHistory"
+								}
+							]
+						},
+						{
+							"id": "claim",
+							"name": "Claim",
+							"children": [
+								{
+									"id": "claim-status",
+									"name": "Claim Status",
+									"endpointId": "getClaimStatus"
+								},
+								{
+									"id": "property-claim",
+									"name": "Property Claim",
+									"endpointId": "getPropertyClaim"
+								},
+								{
+									"id": "claim-info",
+									"name": "Claim Info",
+									"endpointId": "getClaimInfo"
+								},
+								{
+									"id": "claim-type",
+									"name": "Claim Type",
+									"endpointId": "getClaimType"
+								}
+							]
+						},
+						{
+							"id": "valuation",
+							"name": "Valuation",
+							"children": [
+								{
+									"id": "current-valuation",
+									"name": "Property Current Valuation",
+									"endpointId": "getPropertyCurrentValuation"
+								},
+								{
+									"id": "valuation-history",
+									"name": "Property Valuation History",
+									"endpointId": "getPropertyValuationHistory"
+								}
+							]
+						},
+						{
+							"id": "appraisals",
+							"name": "Appraisals",
+							"children": [
+								{
+									"id": "appraisals-list",
+									"name": "Appraisals List",
+									"endpointId": "getPropertyAppraisalsList"
+								},
+								{
+									"id": "appraisals-detail",
+									"name": "Appraisals Detail",
+									"endpointId": "getPropertyAppraisalById"
+								}
+							]
+						},
+						{
+							"id": "ownership-transfer",
+							"name": "Ownership Transfer History",
+							"children": [
+								{
+									"id": "transfer-history-list",
+									"name": "Transfer History List",
+									"endpointId": "getOwnerTransferHistoryList"
+								},
+								{
+									"id": "transfer-history-info",
+									"name": "Transfer History Info",
+									"endpointId": "getOwnerTransferHistoryInfo"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "tenant",
+			"name": "Tenant",
+			"children": [
+				{
+					"id": "static",
+					"name": "Static",
+					"children": [
+						{
+							"id": "tenant-basic-info",
+							"name": "Tenant Basic Info",
+							"children": [
+								{
+									"id": "tenant-basic-info",
+									"name": "Tenant Basic Info",
+									"endpointId": "getTenantBasicInfo"
+								},
+								{
+									"id": "emergency-contact",
+									"name": "Emergency Contacts",
+									"endpointId": "getTenantEmergencyContact"
+								},
+								{
+									"id": "identification",
+									"name": "Identification",
+									"endpointId": "getTenantIdentification"
+								}
+							]
+						},
+						{
+							"id": "vehicle",
+							"name": "Vehicle",
+							"children": [
+								{
+									"id": "vehicle-list",
+									"name": "Vehicle List",
+									"endpointId": "getTenantVehicleList"
+								},
+								{
+									"id": "vehicle-detail",
+									"name": "Vehicle Detail",
+									"endpointId": "getTenantVehicleDetail"
+								}
+							]
+						},
+						{
+							"id": "pets",
+							"name": "Pets",
+							"children": [
+								{
+									"id": "pets-list",
+									"name": "Pet List",
+									"endpointId": "getTenantPetsList"
+								},
+								{
+									"id": "pets-detail",
+									"name": "Pet Detail",
+									"endpointId": "getTenantPetsDetail"
+								}
+							]
+						},
+						{
+							"id": "tenant-profile",
+							"name": "Tenant Profile",
+							"children": [
+								{
+									"id": "tenant-profile",
+									"name": "Tenant Profile",
+									"endpointId": "getTenantProfile"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "workflow",
+					"name": "Workflow",
+					"children": [
+						{
+							"id": "tenant-status",
+							"name": "Tenant Status",
+							"children": [
+								{
+									"id": "get-tenant-status",
+									"name": "Get Tenant Status",
+									"endpointId": "getTenantStatus"
+								}
+							]
+						},
+						{
+							"id": "tenant-arrears",
+							"name": "Tenant Arrears",
+							"children": [
+								{
+									"id": "get-tenant-arrears",
+									"name": "Get Tenant Arrears",
+									"endpointId": "getTenantArrears"
+								}
+							]
+						},
+						{
+							"id": "tenancy",
+							"name": "Tenancy",
+							"children": [
+								{
+									"id": "tenancy-history",
+									"name": "Tenancy History",
+									"endpointId": "getTenancyHistory"
+								},
+								{
+									"id": "tenancy-status",
+									"name": "Tenancy Status",
+									"endpointId": "getTenancyStatus"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "landlord",
+			"name": "Landlord",
+			"children": [
+				{
+					"id": "static",
+					"name": "Static",
+					"children": [
+						{
+							"id": "basic-info",
+							"name": "Basic Info",
+							"children": [
+								{
+									"id": "landlord-basic-info",
+									"name": "Landlord Basic Info",
+									"endpointId": "getLandlordBasicInfo"
+								},
+								{
+									"id": "landlord-profile",
+									"name": "Landlord Profile",
+									"endpointId": "getLandlordProfile"
+								},
+								{
+									"id": "landlord-contact",
+									"name": "Landlord Contact",
+									"endpointId": "getLandlordContact"
+								},
+								{
+									"id": "entity",
+									"name": "Entity",
+									"endpointId": "getLandlordEntity"
+								},
+								{
+									"id": "landlord-type",
+									"name": "Landlord Type",
+									"endpointId": "getLandlordType"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "workflow",
+					"name": "Workflow",
+					"children": [
+						{
+							"id": "ownership",
+							"name": "Ownership",
+							"children": [
+								{
+									"id": "ownership-info",
+									"name": "Ownership Info",
+									"endpointId": "getLandlordOwnerships"
+								}
+							]
+						},
+						{
+							"id": "ownership-transfer-history",
+							"name": "Ownership Transfer History",
+							"children": [
+								{
+									"id": "transfer-history-list",
+									"name": "Transfer History List",
+									"endpointId": "getOwnerTransferHistoryList"
+								},
+								{
+									"id": "transfer-history-info",
+									"name": "Transfer History Info",
+									"endpointId": "getOwnerTransferHistoryInfo"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"endpoints": [
+		{
+			"id": "getPropertyBasicInfo",
+			"title": "Get Property Basic Info",
+			"description": "Retrieve basic information about the property.",
+			"method": "GET",
+			"path": "/property/basic-info",
+			"category": "property",
+			"subcategory": "basic-info",
+			"parameters": [
+				{
+					"name": "propertyId",
+					"type": "string",
+					"required": true,
+					"description": "Unique property identifier."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"propertyId\": \"P-001\"\n}",
+				"response": "{\n  \"address\": \"123 Main St\",\n  \"strataId\": \"S-101\",\n  \"councilId\": \"C-201\",\n  \"projectId\": \"PJ-301\",\n  \"feature\": \"Modern Design\"\n}"
+			}
+		},
+		{
+			"id": "getPropertyAddress",
+			"title": "Get Property Address",
+			"description": "Retrieve property address details.",
+			"method": "GET",
+			"path": "/property/address",
+			"category": "property",
+			"subcategory": "basic-info",
+			"parameters": [
+				{
+					"name": "propertyId",
+					"type": "string",
+					"required": true,
+					"description": "Unique property identifier."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"propertyId\": \"P-001\"\n}",
+				"response": "{\n  \"unitNumber\": \"12A\",\n  \"postcode\": \"2000\",\n  \"lotNumber\": \"15\",\n  \"streetAddress\": \"Main St\",\n  \"suburb\": \"Sydney\",\n  \"state\": \"NSW\"\n}"
+			}
+		},
+		{
+			"id": "getPropertyStrata",
+			"title": "Get Property Strata Info",
+			"description": "Retrieve property strata details.",
+			"method": "GET",
+			"path": "/property/strata",
+			"category": "property",
+			"subcategory": "basic-info",
+			"parameters": [
+				{
+					"name": "strataId",
+					"type": "string",
+					"required": true,
+					"description": "Unique strata identifier."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"strataId\": \"S-101\"\n}",
+				"response": "{\n  \"strata\": \"Strata Management Co.\"\n}"
+			}
+		},
+		{
+			"id": "getPropertyCouncil",
+			"title": "Get Property Council",
+			"description": "Retrieve council information for the property.",
+			"method": "GET",
+			"path": "/property/council",
+			"category": "property",
+			"subcategory": "basic-info",
+			"parameters": [
+				{
+					"name": "councilId",
+					"type": "string",
+					"required": true,
+					"description": "Unique council identifier."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"councilId\": \"C-201\"\n}",
+				"response": "{\n  \"council\": \"Sydney City Council\"\n}"
+			}
+		},
+		{
+			"id": "getPropertyFeature",
+			"title": "Get Property Feature Info",
+			"description": "Retrieve property feature details.",
+			"method": "GET",
+			"path": "/property/feature",
+			"category": "property",
+			"subcategory": "basic-info",
+			"parameters": [
+				{
+					"name": "propertyId",
+					"type": "string",
+					"required": true,
+					"description": "Unique property identifier."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"propertyId\": \"P-001\"\n}",
+				"response": "{\n  \"propertyTypeId\": \"PT-01\",\n  \"bedroom\": 3,\n  \"bathroom\": 2,\n  \"carSpace\": 1,\n  \"garageSpaces\": 1,\n  \"landArea\": 500,\n  \"buildingArea\": 200\n}"
+			}
+		},
+		{
+			"id": "getPropertyType",
+			"title": "Get Property Type",
+			"description": "Retrieve property type details (House, Villa, Townhouse).",
+			"method": "GET",
+			"path": "/property/type",
+			"category": "property",
+			"subcategory": "static",
+			"parameters": [
+				{
+					"name": "propertyTypeId",
+					"type": "string",
+					"required": true,
+					"description": "Property type ID."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"propertyTypeId\": \"PT-01\"\n}",
+				"response": "{\n  \"propertyType\": \"House\"\n}"
+			}
+		},
+		{
+			"id": "getPropertyFloorType",
+			"title": "Get Property Floor Type",
+			"description": "Retrieve floor type (Single Level, 2+ Levels).",
+			"method": "GET",
+			"path": "/property/floor-type",
+			"category": "property",
+			"subcategory": "static",
+			"parameters": [
+				{
+					"name": "floorTypeId",
+					"type": "string",
+					"required": true,
+					"description": "Floor type ID."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"floorTypeId\": \"FT-01\"\n}",
+				"response": "{\n  \"floorType\": \"Single Level\"\n}"
+			}
+		},
+		{
+			"id": "getPropertySpecialType",
+			"title": "Get Property Special Type",
+			"description": "Retrieve special property type (Affordable, Livable, Adaptable).",
+			"method": "GET",
+			"path": "/property/special-type",
+			"category": "property",
+			"subcategory": "static",
+			"parameters": [
+				{
+					"name": "specialTypeId",
+					"type": "string",
+					"required": true,
+					"description": "Special type ID."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"specialTypeId\": \"ST-01\"\n}",
+				"response": "{\n  \"specialType\": \"Affordable\"\n}"
+			}
+		},
+		{
+			"id": "getPropertySalesConsultant",
+			"title": "Get Property Sales Consultant",
+			"description": "Retrieve assigned sales consultant info.",
+			"method": "GET",
+			"path": "/property/sales-consultant",
+			"category": "property",
+			"subcategory": "static",
+			"parameters": [
+				{
+					"name": "propertyId",
+					"type": "string",
+					"required": true,
+					"description": "Unique property identifier."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"propertyId\": \"P-001\"\n}",
+				"response": "{\n  \"firstName\": \"John\",\n  \"lastName\": \"Doe\",\n  \"email\": \"john@example.com\",\n  \"mobile\": \"+61-400-123-456\"\n}"
+			}
+		},
+		{
+			"id": "getPropertyOwners",
+			"title": "Get Property Owners",
+			"description": "Retrieve property owners list.",
+			"method": "GET",
+			"path": "/property/owners",
+			"category": "property",
+			"subcategory": "static",
+			"parameters": [
+				{
+					"name": "propertyId",
+					"type": "string",
+					"required": true,
+					"description": "Unique property identifier."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"propertyId\": \"P-001\"\n}",
+				"response": "{\n  \"owners\": [{\"landlordId\": \"L-001\", \"startDate\": \"2022-01-01\", \"endDate\": null}]\n}"
+			}
+		},
+		{
+			"id": "getBuildingManager",
+			"title": "Get Building Manager",
+			"description": "Retrieve building manager details for a property.",
+			"method": "GET",
+			"path": "/property/building-manager",
+			"category": "property",
+			"subcategory": "static",
+			"parameters": [
+				{
+					"name": "propertyId",
+					"type": "string",
+					"required": true,
+					"description": "Unique property identifier."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"propertyId\": \"P-001\"\n}",
+				"response": "{\n  \"firstName\": \"Alex\",\n  \"lastName\": \"Smith\",\n  \"email\": \"alex@example.com\",\n  \"mobile\": \"+61-499-999-999\",\n  \"address\": \"Level 3, 100 George St\"\n}"
+			}
+		},
+		{
+			"id": "getPropertyKeyRingList",
+			"title": "Get Property Key Ring List",
+			"description": "Retrieve list of all key rings associated with a property.",
+			"method": "GET",
+			"path": "/property/key-ring/list",
+			"category": "property",
+			"subcategory": "static",
+			"parameters": [
+				{
+					"name": "propertyId",
+					"type": "string",
+					"required": true,
+					"description": "Property ID."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"propertyId\": \"P-001\"\n}",
+				"response": "{\n  \"keyRings\": [\n    {\n      \"keyRingId\": \"KR-001\",\n      \"propertyId\": \"P-001\",\n      \"keyRingCode\": \"R123\",\n      \"keyRingUse\": \"Main Entrance\",\n      \"createdBy\": \"Admin\",\n      \"createdAt\": \"2024-10-05\",\n      \"assignedTo\": \"John\",\n      \"status\": \"Active\"\n    }\n  ]\n}"
+			}
+		},
+		{
+			"id": "getPropertyKeyRingDetail",
+			"title": "Get Property Key Ring Detail",
+			"description": "Retrieve details of a specific key ring.",
+			"method": "GET",
+			"path": "/property/key-ring/detail",
+			"category": "property",
+			"subcategory": "static",
+			"parameters": [
+				{
+					"name": "keyRingId",
+					"type": "string",
+					"required": true,
+					"description": "Key ring ID."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"keyRingId\": \"KR-001\"\n}",
+				"response": "{\n  \"keyRingId\": \"KR-001\",\n  \"propertyId\": \"P-001\",\n  \"keys\": [\n    {\"keyId\": \"K-101\", \"keyUse\": \"Main Gate\", \"keyCode\": \"C123\", \"status\": \"Active\"}\n  ]\n}"
+			}
+		},
+		{
+			"id": "getPropertyKeys",
+			"title": "Get Property Keys",
+			"description": "Retrieve all keys for a property.",
+			"method": "GET",
+			"path": "/property/keys",
+			"category": "property",
+			"subcategory": "static",
+			"parameters": [
+				{
+					"name": "propertyId",
+					"type": "string",
+					"required": true,
+					"description": "Property ID."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"propertyId\": \"P-001\"\n}",
+				"response": "{\n  \"keys\": [\n    {\"keyId\": \"K-101\", \"keyCode\": \"12345\", \"keyUse\": \"Front Door\", \"status\": \"Active\"}\n  ]\n}"
+			}
+		},
+		{
+			"id": "getPropertySaleRecordInfo",
+			"title": "Get Property Sale Record Info",
+			"description": "Retrieve property sale record info.",
+			"method": "GET",
+			"path": "/property/sale-record",
+			"category": "property",
+			"subcategory": "static",
+			"parameters": [
+				{
+					"name": "propertyId",
+					"type": "string",
+					"required": true,
+					"description": "Property ID."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"propertyId\": \"P-001\"\n}",
+				"response": "{\n  \"pushedDate\": \"2024-09-15\",\n  \"validTo\": \"2024-10-30\",\n  \"pushedBy\": \"Agent123\"\n}"
+			}
+		},
+		{
+			"id": "getPropertyInventoryInfo",
+			"title": "Get Property Inventory Info",
+			"description": "Retrieve inventory details of property.",
+			"method": "GET",
+			"path": "/property/inventory",
+			"category": "property",
+			"subcategory": "static",
+			"parameters": [
+				{
+					"name": "propertyId",
+					"type": "string",
+					"required": true,
+					"description": "Property ID."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"propertyId\": \"P-001\"\n}",
+				"response": "{\n  \"items\": [{\"itemNameId\": \"IN-01\", \"itemTypeId\": \"T-01\", \"brand\": \"LG\", \"purchaseDate\": \"2023-02-01\"}]\n}"
+			}
+		},
+		{
+			"id": "getPropertyInventoryName",
+			"title": "Get Property Inventory Name",
+			"description": "Retrieve inventory name (e.g., Oven, Microwave).",
+			"method": "GET",
+			"path": "/property/inventory/name",
+			"category": "property",
+			"subcategory": "static",
+			"parameters": [
+				{
+					"name": "itemNameId",
+					"type": "string",
+					"required": true,
+					"description": "Inventory name ID."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"itemNameId\": \"IN-01\"\n}",
+				"response": "{\n  \"itemName\": \"Oven\"\n}"
+			}
+		},
+		{
+			"id": "getPropertyInventoryType",
+			"title": "Get Property Inventory Type",
+			"description": "Retrieve inventory type (Fixture/Appliance).",
+			"method": "GET",
+			"path": "/property/inventory/type",
+			"category": "property",
+			"subcategory": "static",
+			"parameters": [
+				{
+					"name": "itemTypeId",
+					"type": "string",
+					"required": true,
+					"description": "Inventory type ID."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"itemTypeId\": \"T-01\"\n}",
+				"response": "{\n  \"itemType\": \"Appliance\"\n}"
+			}
+		},
+		{
+			"id": "getPropertySmokeAlarmCompliance",
+			"title": "Get Property Smoke Alarm Compliance",
+			"description": "Retrieve smoke alarm compliance information.",
+			"method": "GET",
+			"path": "/property/compliance/smoke-alarm",
+			"category": "property",
+			"subcategory": "static",
+			"parameters": [
+				{
+					"name": "propertyId",
+					"type": "string",
+					"required": true,
+					"description": "Property ID."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"propertyId\": \"P-001\"\n}",
+				"response": "{\n  \"hardwired\": 2,\n  \"batteryOperated\": 1,\n  \"lastCheckDate\": \"2024-06-20\",\n  \"tenantReplaceAllowed\": true\n}"
+			}
+		},
+		{
+			"id": "getPropertyStatus",
+			"title": "Get Property Status",
+			"description": "Retrieve property status (Leased/Vacant).",
+			"method": "GET",
+			"path": "/property/status",
+			"category": "property",
+			"subcategory": "workflow",
+			"parameters": [
+				{
+					"name": "propertyStatusId",
+					"type": "string",
+					"required": true,
+					"description": "Status ID."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"propertyStatusId\": \"ST-01\"\n}",
+				"response": "{\n  \"status\": \"Leased\"\n}"
+			}
+		},
+		{
+			"id": "getPropertyMarketRentRecord",
+			"title": "Get Property Market Rent Record",
+			"description": "Retrieve market rent record for a property.",
+			"method": "GET",
+			"path": "/property/market-rent",
+			"category": "property",
+			"subcategory": "workflow",
+			"parameters": [
+				{
+					"name": "propertyId",
+					"type": "string",
+					"required": true,
+					"description": "Property ID."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"propertyId\": \"P-001\"\n}",
+				"response": "{\n  \"updatedType\": \"Increase\",\n  \"setTime\": \"2024-10-01\",\n  \"pmSuggestedRent\": 600\n}"
+			}
+		},
+		{
+			"id": "getPropertyMarketingInfo",
+			"title": "Get Property Marketing Info",
+			"description": "Retrieve marketing info for property.",
+			"method": "GET",
+			"path": "/property/marketing-info",
+			"category": "property",
+			"subcategory": "workflow",
+			"parameters": [
+				{
+					"name": "propertyId",
+					"type": "string",
+					"required": true,
+					"description": "Property ID."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"propertyId\": \"P-001\"\n}",
+				"response": "{\n  \"advertisingTitle\": \"Luxury Apartment\",\n  \"isRelet\": false,\n  \"advertisingChannelId\": \"CH-01\"\n}"
+			}
+		},
+		{
+			"id": "getPropertyInventoryInfo",
+			"title": "GetPropertyInventoryInfo",
+			"method": "GET",
+			"path": "/api/property/inventory/{propertyId}",
+			"description": "Retrieve inventory details for a property.",
+			"category": "property",
+			"subcategory": "inventory",
+			"parameters": [
+				{
+					"name": "propertyId",
+					"required": true,
+					"description": "The unique identifier of the property.",
+					"type": "string"
+				}
+			],
+			"examples": {
+				"request": "{ \"propertyId\": \"12345\" }",
+				"response": "{ \"itemNameId\": \"I-001\", \"itemOtherName\": \"Oven\", \"itemTypeId\": \"T-001\", \"brandName\": \"Bosch\", \"purchaseDate\": \"2023-04-10\", \"purchaseProofFiles\": [\"file1.jpg\"], \"description\": \"Built-in Oven\" }"
+			}
+		},
+		{
+			"id": "getPropertyInventoryName",
+			"title": "GetPropertyInventoryName",
+			"method": "GET",
+			"path": "/api/property/inventory/name/{itemNameId}",
+			"description": "Retrieve inventory item name by ID.",
+			"category": "property",
+			"subcategory": "inventory",
+			"parameters": [
+				{
+					"name": "itemNameId",
+					"required": true,
+					"description": "The unique identifier of the inventory item name.",
+					"type": "string"
+				}
+			],
+			"examples": {
+				"request": "{ \"itemNameId\": \"I-001\" }",
+				"response": "{ \"itemName\": \"Oven\" }"
+			}
+		},
+		{
+			"id": "getPropertyInventoryType",
+			"title": "GetPropertyInventoryType",
+			"method": "GET",
+			"path": "/api/property/inventory/type/{itemTypeId}",
+			"description": "Retrieve inventory item type by ID.",
+			"category": "property",
+			"subcategory": "inventory",
+			"parameters": [
+				{
+					"name": "itemTypeId",
+					"required": true,
+					"description": "The unique identifier of the inventory item type.",
+					"type": "string"
+				}
+			],
+			"examples": {
+				"request": "{ \"itemTypeId\": \"T-001\" }",
+				"response": "{ \"itemType\": \"Appliance\" }"
+			}
+		},
+		{
+			"id": "getInventoryWarranties",
+			"title": "GetInventoryWarranties",
+			"method": "GET",
+			"path": "/api/property/inventory/warranties/{inventoryId}",
+			"description": "Retrieve warranties for a specific inventory item.",
+			"category": "property",
+			"subcategory": "inventory",
+			"parameters": [
+				{
+					"name": "inventoryId",
+					"required": true,
+					"description": "The unique identifier of the inventory item.",
+					"type": "string"
+				}
+			],
+			"examples": {
+				"request": "{ \"inventoryId\": \"INV-001\" }",
+				"response": "{ \"serialNumber\": \"SN12345678\", \"warrantyPeriod\": \"24 months\" }"
+			}
+		},
+		{
+			"id": "getPropertySmokeAlarmCompliance",
+			"title": "GetPropertySmokeAlarmCompliance",
+			"method": "GET",
+			"path": "/api/property/compliance/smoke-alarms/{propertyId}",
+			"description": "Retrieve smoke alarm compliance details.",
+			"category": "property",
+			"subcategory": "compliance",
+			"parameters": [
+				{
+					"name": "propertyId",
+					"required": true,
+					"description": "Property identifier",
+					"type": "string"
+				}
+			],
+			"examples": {
+				"request": "{ \"propertyId\": \"12345\" }",
+				"response": "{ \"hardwiredSmokeAlarms\": 2, \"batteryOperatedSmokeAlarms\": 3, \"batteryType\": \"Lithium\", \"lastCheckDate\": \"2024-07-01\", \"lastReplacedDate\": \"2024-01-01\", \"canTenantReplaceBatteries\": true, \"strataSchemesManagementAct\": true, \"notes\": \"Compliant\" }"
+			}
+		},
+		{
+			"id": "getPropertyElectricityCompliance",
+			"title": "GetPropertyElectricityCompliance",
+			"method": "GET",
+			"path": "/api/property/compliance/electricity/{propertyId}",
+			"description": "Retrieve electricity compliance details.",
+			"category": "property",
+			"subcategory": "compliance",
+			"parameters": [
+				{
+					"name": "propertyId",
+					"required": true,
+					"description": "Property identifier",
+					"type": "string"
+				}
+			],
+			"examples": {
+				"request": "{ \"propertyId\": \"12345\" }",
+				"response": "{ \"electricityCompany\": \"Ausgrid\", \"networkNotes\": \"Embedded network available\" }"
+			}
+		},
+		{
+			"id": "getPropertyGasCompliance",
+			"title": "GetPropertyGasCompliance",
+			"method": "GET",
+			"path": "/api/property/compliance/gas/{propertyId}",
+			"description": "Retrieve gas compliance details.",
+			"category": "property",
+			"subcategory": "compliance",
+			"parameters": [
+				{
+					"name": "propertyId",
+					"required": true,
+					"description": "Property identifier",
+					"type": "string"
+				}
+			],
+			"examples": {
+				"request": "{ \"propertyId\": \"12345\" }",
+				"response": "{ \"gasCompany\": \"AGL\", \"gasNetworkNotes\": \"No issues reported\" }"
+			}
+		},
+		{
+			"id": "getPropertyWaterCompliance",
+			"title": "GetPropertyWaterCompliance",
+			"method": "GET",
+			"path": "/api/property/compliance/water/{propertyId}",
+			"description": "Retrieve water compliance details.",
+			"category": "property",
+			"subcategory": "compliance",
+			"parameters": [
+				{
+					"name": "propertyId",
+					"required": true,
+					"description": "Property identifier",
+					"type": "string"
+				}
+			],
+			"examples": {
+				"request": "{ \"propertyId\": \"12345\" }",
+				"response": "{ \"waterCompany\": \"Sydney Water\", \"usageCharge\": true, \"networkNotes\": \"Compliant\" }"
+			}
+		},
+		{
+			"id": "getDefectLog",
+			"title": "Get Defect Log",
+			"description": "Retrieve defect log details for a property.",
+			"method": "GET",
+			"path": "/property/defects",
+			"category": "property",
+			"subcategory": "workflow",
+			"parameters": [
+				{
+					"name": "propertyId",
+					"type": "string",
+					"required": true,
+					"description": "Unique property identifier."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"propertyId\": \"P-001\"\n}",
+				"response": "{\n  \"reportedAt\": \"2024-07-01\",\n  \"reportedBy\": \"Tenant\",\n  \"location\": \"Bathroom\",\n  \"description\": \"Leaking faucet\"\n}"
+			}
+		},
+		{
+			"id": "getClaimStatus",
+			"title": "Get Claim Status",
+			"description": "Retrieve claim status by ID.",
+			"method": "GET",
+			"path": "/property/claim-status",
+			"category": "property",
+			"subcategory": "workflow",
+			"parameters": [
+				{
+					"name": "claimStatusId",
+					"type": "string",
+					"required": true,
+					"description": "Claim status ID."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"claimStatusId\": \"CS-01\"\n}",
+				"response": "{\n  \"claimStatus\": \"Approved\"\n}"
+			}
+		},
+		{
+			"id": "getPropertyClaim",
+			"title": "Get Property Claim",
+			"description": "Retrieve claims associated with a property.",
+			"method": "GET",
+			"path": "/property/claims",
+			"category": "property",
+			"subcategory": "workflow",
+			"parameters": [
+				{
+					"name": "propertyId",
+					"type": "string",
+					"required": true,
+					"description": "Property ID."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"propertyId\": \"P-001\"\n}",
+				"response": "{\n  \"claims\": [\n    {\"claimId\": \"C-1001\", \"statusId\": \"CS-01\", \"typeId\": \"CT-02\"}\n  ]\n}"
+			}
+		},
+		{
+			"id": "getClaimInfo",
+			"title": "Get Claim Info",
+			"description": "Retrieve detailed information about a claim.",
+			"method": "GET",
+			"path": "/property/claim-info",
+			"category": "property",
+			"subcategory": "workflow",
+			"parameters": [
+				{
+					"name": "claimId",
+					"type": "string",
+					"required": true,
+					"description": "Claim ID."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"claimId\": \"C-1001\"\n}",
+				"response": "{\n  \"claimStatusId\": \"CS-01\",\n  \"claimTypeId\": \"CT-02\",\n  \"lodgeDate\": \"2024-06-20\",\n  \"paidDate\": \"2024-07-05\",\n  \"claimAmount\": 1200,\n  \"receivedAmount\": 1000,\n  \"referenceNumber\": \"REF-123\",\n  \"claimBy\": \"Insurance Co\"\n}"
+			}
+		},
+		{
+			"id": "getClaimType",
+			"title": "Get Claim Type",
+			"description": "Retrieve claim type details.",
+			"method": "GET",
+			"path": "/property/claim-type",
+			"category": "property",
+			"subcategory": "workflow",
+			"parameters": [
+				{
+					"name": "claimTypeId",
+					"type": "string",
+					"required": true,
+					"description": "Claim type ID."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"claimTypeId\": \"CT-02\"\n}",
+				"response": "{\n  \"claimType\": \"Water Damage\"\n}"
+			}
+		},
+		{
+			"id": "getPropertyCurrentValuation",
+			"title": "Get Property Current Valuation",
+			"description": "Retrieve the current valuation for a property.",
+			"method": "GET",
+			"path": "/property/valuation/current",
+			"category": "property",
+			"subcategory": "workflow",
+			"parameters": [
+				{
+					"name": "propertyId",
+					"type": "string",
+					"required": true,
+					"description": "Property ID."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"propertyId\": \"P-001\"\n}",
+				"response": "{\n  \"valuationId\": \"V-100\",\n  \"valuationDate\": \"2024-09-01\",\n  \"value\": 950000,\n  \"valuerName\": \"ABC Valuers\",\n  \"notes\": \"Updated due to market increase\"\n}"
+			}
+		},
+		{
+			"id": "getPropertyValuationHistory",
+			"title": "Get Property Valuation History",
+			"description": "Retrieve valuation history of a property.",
+			"method": "GET",
+			"path": "/property/valuation/history",
+			"category": "property",
+			"subcategory": "workflow",
+			"parameters": [
+				{
+					"name": "propertyId",
+					"type": "string",
+					"required": true,
+					"description": "Property ID."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"propertyId\": \"P-001\"\n}",
+				"response": "{\n  \"valuations\": [\n    {\"valuationId\": \"V-100\", \"date\": \"2024-09-01\", \"value\": 950000},\n    {\"valuationId\": \"V-090\", \"date\": \"2023-09-01\", \"value\": 900000}\n  ]\n}"
+			}
+		},
+		{
+			"id": "getPropertyAppraisalsList",
+			"title": "Get Property Appraisals List",
+			"description": "Retrieve list of appraisals for a property.",
+			"method": "GET",
+			"path": "/property/appraisals/list",
+			"category": "property",
+			"subcategory": "workflow",
+			"parameters": [
+				{
+					"name": "propertyId",
+					"type": "string",
+					"required": true,
+					"description": "Property ID."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"propertyId\": \"P-001\"\n}",
+				"response": "{\n  \"appraisals\": [\n    {\"appraisalId\": \"A-01\", \"amount\": 900000, \"createDate\": \"2024-05-01\"}\n  ]\n}"
+			}
+		},
+		{
+			"id": "getPropertyAppraisalById",
+			"title": "Get Property Appraisal By ID",
+			"description": "Retrieve details of a specific appraisal.",
+			"method": "GET",
+			"path": "/property/appraisals/detail",
+			"category": "property",
+			"subcategory": "workflow",
+			"parameters": [
+				{
+					"name": "appraisalId",
+					"type": "string",
+					"required": true,
+					"description": "Appraisal ID."
+				},
+				{
+					"name": "propertyId",
+					"type": "string",
+					"required": true,
+					"description": "Property ID."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"propertyId\": \"P-001\",\n  \"appraisalId\": \"A-01\"\n}",
+				"response": "{\n  \"appraisalId\": \"A-01\",\n  \"amount\": 900000,\n  \"type\": \"Market\",\n  \"appraiser\": \"XYZ Agency\",\n  \"notes\": \"Updated after inspection\"\n}"
+			}
+		},
+		{
+			"id": "getOwnerTransferHistoryList",
+			"title": "Get Owner Transfer History List",
+			"description": "Retrieve list of ownership transfer history for a property.",
+			"method": "GET",
+			"path": "/property/ownership/transfer-list",
+			"category": "property",
+			"subcategory": "workflow",
+			"parameters": [
+				{
+					"name": "propertyId",
+					"type": "string",
+					"required": true,
+					"description": "Property ID."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"propertyId\": \"P-001\"\n}",
+				"response": "{\n  \"transfers\": [\n    {\"transferId\": \"T-001\", \"fromLandlordId\": \"L-001\", \"toLandlordId\": \"L-002\", \"settlementDate\": \"2024-05-01\", \"status\": \"Completed\"}\n  ]\n}"
+			}
+		},
+		{
+			"id": "getOwnerTransferHistoryInfo",
+			"title": "Get Owner Transfer History Info",
+			"description": "Retrieve detailed info of an ownership transfer.",
+			"method": "GET",
+			"path": "/property/ownership/transfer-info",
+			"category": "property",
+			"subcategory": "workflow",
+			"parameters": [
+				{
+					"name": "transferId",
+					"type": "string",
+					"required": true,
+					"description": "Transfer ID."
+				},
+				{
+					"name": "propertyId",
+					"type": "string",
+					"required": true,
+					"description": "Property ID."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"transferId\": \"T-001\",\n  \"propertyId\": \"P-001\"\n}",
+				"response": "{\n  \"fromLandlordId\": \"L-001\",\n  \"toLandlordId\": \"L-002\",\n  \"settlementDate\": \"2024-05-01\",\n  \"requestedBy\": \"Agent1\",\n  \"requestedAt\": \"2024-04-20\",\n  \"status\": \"Completed\"\n}"
+			}
+		},
+		{
+			"id": "getTenantBasicInfo",
+			"title": "Get Tenant Basic Info",
+			"description": "Retrieve tenant's basic information including profile, contacts, identification, vehicles, and pets.",
+			"method": "GET",
+			"path": "/tenant/basic-info",
+			"category": "tenant",
+			"subcategory": "static",
+			"parameters": [
+				{
+					"name": "tenantId",
+					"type": "string",
+					"required": true,
+					"description": "The unique identifier of the tenant."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"tenantId\": \"TNT-001\"\n}",
+				"response": "{\n  \"profile\": {},\n  \"emergencyContacts\": [],\n  \"identification\": [],\n  \"vehicles\": [],\n  \"pets\": []\n}"
+			}
+		},
+		{
+			"id": "getTenantEmergencyContact",
+			"title": "Get Tenant Emergency Contact",
+			"description": "Retrieve tenant's emergency contact details.",
+			"method": "GET",
+			"path": "/tenant/emergency-contact",
+			"category": "tenant",
+			"subcategory": "static",
+			"parameters": [
+				{
+					"name": "tenantId",
+					"type": "string",
+					"required": true,
+					"description": "The unique identifier of the tenant."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"tenantId\": \"TNT-001\"\n}",
+				"response": "{\n  \"name\": \"John Doe\",\n  \"phone\": \"+61 400 000 000\",\n  \"email\": \"johndoe@example.com\",\n  \"relationship\": \"Brother\"\n}"
+			}
+		},
+		{
+			"id": "getTenantIdentification",
+			"title": "Get Tenant Identification",
+			"description": "Retrieve tenant's identification details.",
+			"method": "GET",
+			"path": "/tenant/identification",
+			"category": "tenant",
+			"subcategory": "static",
+			"parameters": [
+				{
+					"name": "tenantId",
+					"type": "string",
+					"required": true,
+					"description": "The unique identifier of the tenant."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"tenantId\": \"TNT-001\"\n}",
+				"response": "{\n  \"type\": \"Driver License\",\n  \"number\": \"123456789\",\n  \"expiryDate\": \"2026-12-31\"\n}"
+			}
+		},
+		{
+			"id": "getTenantVehicleList",
+			"title": "Get Tenant Vehicle List",
+			"description": "Retrieve a list of vehicles associated with the tenant.",
+			"method": "GET",
+			"path": "/tenant/vehicles",
+			"category": "tenant",
+			"subcategory": "static",
+			"parameters": [
+				{
+					"name": "tenantId",
+					"type": "string",
+					"required": true,
+					"description": "The unique identifier of the tenant."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"tenantId\": \"TNT-001\"\n}",
+				"response": "{\n  \"hasVehicle\": true,\n  \"vehicles\": [\n    { \"vehicleId\": \"V-101\", \"vehicleNumber\": \"ABC123\" },\n    { \"vehicleId\": \"V-102\", \"vehicleNumber\": \"XYZ789\" }\n  ]\n}"
+			}
+		},
+		{
+			"id": "getTenantVehicleDetail",
+			"title": "Get Tenant Vehicle Detail",
+			"description": "Retrieve detailed information about a tenant's vehicle.",
+			"method": "GET",
+			"path": "/tenant/vehicle/detail",
+			"category": "tenant",
+			"subcategory": "static",
+			"parameters": [
+				{
+					"name": "vehicleId",
+					"type": "string",
+					"required": true,
+					"description": "The unique identifier of the vehicle."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"vehicleId\": \"V-101\"\n}",
+				"response": "{\n  \"vehicleRego\": \"ABC123\",\n  \"model\": \"Toyota Corolla\",\n  \"make\": \"Toyota\",\n  \"hasInsurance\": true,\n  \"notes\": \"Comprehensive insurance\"\n}"
+			}
+		},
+		{
+			"id": "getTenantPetsList",
+			"title": "Get Tenant Pets List",
+			"description": "Retrieve a list of pets associated with the tenant.",
+			"method": "GET",
+			"path": "/tenant/pets",
+			"category": "tenant",
+			"subcategory": "static",
+			"parameters": [
+				{
+					"name": "tenantId",
+					"type": "string",
+					"required": true,
+					"description": "The unique identifier of the tenant."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"tenantId\": \"TNT-001\"\n}",
+				"response": "{\n  \"havePets\": true,\n  \"pets\": [\n    { \"petId\": \"P-201\", \"name\": \"Buddy\", \"type\": \"Dog\" }\n  ]\n}"
+			}
+		},
+		{
+			"id": "getTenantPetsDetail",
+			"title": "Get Tenant Pets Detail",
+			"description": "Retrieve detailed information about a tenant's pet.",
+			"method": "GET",
+			"path": "/tenant/pet/detail",
+			"category": "tenant",
+			"subcategory": "static",
+			"parameters": [
+				{
+					"name": "petId",
+					"type": "string",
+					"required": true,
+					"description": "The unique identifier of the pet."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"petId\": \"P-201\"\n}",
+				"response": "{\n  \"type\": \"Dog\",\n  \"breed\": \"Labrador\",\n  \"gender\": \"Male\",\n  \"microchipId\": \"987654321\"\n}"
+			}
+		},
+		{
+			"id": "getTenantProfile",
+			"title": "Get Tenant Profile",
+			"description": "Retrieve detailed tenant profile information.",
+			"method": "GET",
+			"path": "/tenant/profile",
+			"category": "tenant",
+			"subcategory": "static",
+			"parameters": [
+				{
+					"name": "tenantId",
+					"type": "string",
+					"required": true,
+					"description": "The unique identifier of the tenant."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"tenantId\": \"TNT-001\"\n}",
+				"response": "{\n  \"name\": \"Jane Doe\",\n  \"mobile\": \"+61 400 123 456\",\n  \"email\": \"janedoe@example.com\",\n  \"source\": \"Online\",\n  \"dateOfBirth\": \"1990-05-15\",\n  \"gender\": \"Female\",\n  \"currentAddress\": \"123 Main St\",\n  \"nationality\": \"Australian\",\n  \"preferredLanguage\": \"English\"\n}"
+			}
+		},
+		{
+			"id": "getTenantStatus",
+			"title": "Get Tenant Status",
+			"description": "Retrieve tenant's current status.",
+			"method": "GET",
+			"path": "/tenant/status",
+			"category": "tenant",
+			"subcategory": "workflow",
+			"parameters": [
+				{
+					"name": "tenantId",
+					"type": "string",
+					"required": true,
+					"description": "The unique identifier of the tenant."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"tenantId\": \"TNT-001\"\n}",
+				"response": "{\n  \"status\": \"Active\"\n}"
+			}
+		},
+		{
+			"id": "getTenantArrears",
+			"title": "Get Tenant Arrears",
+			"description": "Retrieve tenant arrears details.",
+			"method": "GET",
+			"path": "/tenant/arrears",
+			"category": "tenant",
+			"subcategory": "workflow",
+			"parameters": [
+				{
+					"name": "tenantId",
+					"type": "string",
+					"required": true,
+					"description": "The unique identifier of the tenant."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"tenantId\": \"TNT-001\"\n}",
+				"response": "{\n  \"effectiveArrears\": 500,\n  \"effectiveDue\": 1500,\n  \"periodArrears\": 300,\n  \"periodDue\": 1000,\n  \"laId\": \"LA-123\"\n}"
+			}
+		},
+		{
+			"id": "getTenancyHistory",
+			"title": "Get Tenancy History",
+			"description": "Retrieve the tenancy history of a tenant.",
+			"method": "GET",
+			"path": "/tenant/tenancy/history",
+			"category": "tenant",
+			"subcategory": "workflow",
+			"parameters": [
+				{
+					"name": "tenantId",
+					"type": "string",
+					"required": true,
+					"description": "The unique identifier of the tenant."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"tenantId\": \"TNT-001\"\n}",
+				"response": "{\n  \"tenancies\": [\n    { \"tenancyId\": \"TN-101\", \"laId\": \"LA-123\", \"propertyId\": \"P-001\", \"startDate\": \"2023-01-01\", \"endDate\": \"2023-12-31\", \"status\": \"Active\", \"rentAmount\": 550, \"rentFrequency\": \"Weekly\" }\n  ]\n}"
+			}
+		},
+		{
+			"id": "getTenancyStatus",
+			"title": "Get Tenancy Status",
+			"description": "Retrieve tenancy status by status ID.",
+			"method": "GET",
+			"path": "/tenant/tenancy/status",
+			"category": "tenant",
+			"subcategory": "workflow",
+			"parameters": [
+				{
+					"name": "tenancyStatusId",
+					"type": "string",
+					"required": true,
+					"description": "The unique identifier of the tenancy status."
+				}
+			],
+			"examples": {
+				"request": "{\n  \"tenancyStatusId\": \"TS-001\"\n}",
+				"response": "{\n  \"status\": \"Ongoing\"\n}"
+			}
+		},
+		{
+			"id": "getLandlordBasicInfo",
+			"title": "Get Landlord Basic Info",
+			"description": "Retrieve landlord basic information including profile, contact, entity and type.",
+			"method": "GET",
+			"path": "/landlord/basic-info",
+			"category": "landlord",
+			"subcategory": "static",
+			"parameters": [
+				{
+					"name": "landlordId",
+					"type": "string",
+					"required": true,
+					"description": "The unique ID of the landlord"
+				}
+			],
+			"examples": {
+				"request": "{\n  \"landlordId\": \"LD-001\"\n}",
+				"response": "{\n  \"profile\": {},\n  \"contact\": {},\n  \"entity\": {},\n  \"type\": \"Individual\"\n}"
+			}
+		},
+		{
+			"id": "getLandlordProfile",
+			"title": "Get Landlord Profile",
+			"description": "Fetch landlord personal profile information.",
+			"method": "GET",
+			"path": "/landlord/profile",
+			"category": "landlord",
+			"subcategory": "static",
+			"parameters": [
+				{
+					"name": "landlordId",
+					"type": "string",
+					"required": true,
+					"description": "The unique ID of the landlord"
+				}
+			],
+			"examples": {
+				"request": "{\n  \"landlordId\": \"LD-001\"\n}",
+				"response": "{\n  \"title\": \"Mr\",\n  \"firstName\": \"John\",\n  \"lastName\": \"Doe\",\n  \"dateOfBirth\": \"1980-05-20\",\n  \"currentAddress\": \"123 Main St\",\n  \"postalAddress\": \"PO Box 456\",\n  \"postcode\": \"2000\",\n  \"state\": \"NSW\",\n  \"preferredLanguage\": \"English\"\n}"
+			}
+		},
+		{
+			"id": "getLandlordContact",
+			"title": "Get Landlord Contact",
+			"description": "Retrieve landlord contact details.",
+			"method": "GET",
+			"path": "/landlord/contact",
+			"category": "landlord",
+			"subcategory": "static",
+			"parameters": [
+				{
+					"name": "landlordId",
+					"type": "string",
+					"required": true,
+					"description": "The unique ID of the landlord"
+				}
+			],
+			"examples": {
+				"request": "{\n  \"landlordId\": \"LD-001\"\n}",
+				"response": "{\n  \"mobile\": \"+61 400 123 456\",\n  \"email\": \"john.doe@example.com\",\n  \"fax\": \"+61 2 9000 1111\"\n}"
+			}
+		},
+		{
+			"id": "getLandlordEntity",
+			"title": "Get Landlord Entity",
+			"description": "Retrieve landlord entity details like company, trust info and GST registration.",
+			"method": "GET",
+			"path": "/landlord/entity",
+			"category": "landlord",
+			"subcategory": "static",
+			"parameters": [
+				{
+					"name": "landlordId",
+					"type": "string",
+					"required": true,
+					"description": "The unique ID of the landlord"
+				}
+			],
+			"examples": {
+				"request": "{\n  \"landlordId\": \"LD-001\"\n}",
+				"response": "{\n  \"companyName\": \"ABC Pty Ltd\",\n  \"trustName\": \"Doe Family Trust\",\n  \"trusteeName\": \"John Doe\",\n  \"ownerGstRegistered\": true,\n  \"abn\": \"12 345 678 901\",\n  \"firstPurchaseDate\": \"2020-01-15\"\n}"
+			}
+		},
+		{
+			"id": "getLandlordType",
+			"title": "Get Landlord Type",
+			"description": "Retrieve the type of landlord (Individual, Company, etc.).",
+			"method": "GET",
+			"path": "/landlord/type",
+			"category": "landlord",
+			"subcategory": "static",
+			"parameters": [
+				{
+					"name": "landlordId",
+					"type": "string",
+					"required": true,
+					"description": "The unique ID of the landlord"
+				}
+			],
+			"examples": {
+				"request": "{\n  \"landlordId\": \"LD-001\"\n}",
+				"response": "{\n  \"type\": \"Individual\"\n}"
+			}
+		},
+		{
+			"id": "getLandlordOwnerships",
+			"title": "Get Landlord Ownerships",
+			"description": "Retrieve list of properties owned by the landlord.",
+			"method": "GET",
+			"path": "/landlord/ownerships",
+			"category": "landlord",
+			"subcategory": "workflow",
+			"parameters": [
+				{
+					"name": "landlordId",
+					"type": "string",
+					"required": true,
+					"description": "The unique ID of the landlord"
+				}
+			],
+			"examples": {
+				"request": "{\n  \"landlordId\": \"LD-001\"\n}",
+				"response": "{\n  \"ownerships\": [\n    { \"propertyId\": \"P-101\", \"startDate\": \"2022-01-01\", \"endDate\": null }\n  ]\n}"
+			}
+		},
+		{
+			"id": "getOwnerTransferHistoryList",
+			"title": "Get Owner Transfer History List",
+			"description": "Retrieve the list of ownership transfer history for the landlord.",
+			"method": "GET",
+			"path": "/landlord/ownership-transfer-history",
+			"category": "landlord",
+			"subcategory": "workflow",
+			"parameters": [
+				{
+					"name": "landlordId",
+					"type": "string",
+					"required": true,
+					"description": "The unique ID of the landlord"
+				}
+			],
+			"examples": {
+				"request": "{\n  \"landlordId\": \"LD-001\"\n}",
+				"response": "{\n  \"transfers\": [\n    { \"transferId\": \"T-001\", \"propertyId\": \"P-101\", \"fromLandlordId\": \"LD-001\", \"toLandlordId\": \"LD-002\", \"settlementDate\": \"2023-02-15\", \"status\": \"Completed\" }\n  ]\n}"
+			}
+		},
+		{
+			"id": "getOwnerTransferHistoryInfo",
+			"title": "Get Owner Transfer History Info",
+			"description": "Retrieve details of a specific ownership transfer.",
+			"method": "GET",
+			"path": "/landlord/ownership-transfer-detail",
+			"category": "landlord",
+			"subcategory": "workflow",
+			"parameters": [
+				{
+					"name": "transferId",
+					"type": "string",
+					"required": true,
+					"description": "The unique ID of the transfer"
+				},
+				{
+					"name": "propertyId",
+					"type": "string",
+					"required": true,
+					"description": "The unique ID of the property"
+				},
+				{
+					"name": "landlordId",
+					"type": "string",
+					"required": true,
+					"description": "The unique ID of the landlord"
+				}
+			],
+			"examples": {
+				"request": "{\n  \"transferId\": \"T-001\",\n  \"propertyId\": \"P-101\",\n  \"landlordId\": \"LD-001\"\n}",
+				"response": "{\n  \"fromLandlordId\": \"LD-001\",\n  \"toLandlordId\": \"LD-002\",\n  \"settlementDate\": \"2023-02-15\",\n  \"requestedBy\": \"Admin\",\n  \"requestedAt\": \"2023-02-01\",\n  \"status\": \"Completed\"\n}"
+			}
+		}
+	]
+}
