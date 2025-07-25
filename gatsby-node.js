@@ -4,7 +4,7 @@ const fetch = require("node-fetch");
 exports.createPages = async ({ actions }) => {
 	const { createPage } = actions;
 
-	const apiBaseUrl = "http://192.168.15.3:5078/api/APIDoc/Search/≽^•༚• ྀི≼ﾐ🎀・◦・ﾐ♡𝓗𝓮𝓵𝓵𝓸 𝓴𝓲𝓽𝓽𝔂";
+	const apiBaseUrl = "http://192.168.15.3:5078/api/APIDoc/Search";
 	const useRemoteApi = "true";
 
 	let data;
