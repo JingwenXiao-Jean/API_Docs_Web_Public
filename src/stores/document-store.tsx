@@ -90,7 +90,7 @@ export default class DocumentStore {
 	fetchEndpoints = async () => {
 		this.loading = true;
 		try {
-			const res = await Axios.get(`${API_BASE}/Search/≽^•༚• ྀི≼ﾐ🎀・◦・ﾐ♡𝓗𝓮𝓵𝓵𝓸 𝓴𝓲𝓽𝓽𝔂`);
+			const res = await Axios.get(`${API_BASE}/Search/`);
 			runInAction(() => {
 				this.tree = res.data.tree || [];
 				this.endpoints = res.data.endpoints || [];
