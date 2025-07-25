@@ -3,7 +3,7 @@ import { Box, Button, TextField, Typography, CircularProgress } from "@mui/mater
 import { Send } from "@mui/icons-material";
 
 const TryItPanel = ({ endpoint }: { endpoint: any }) => {
-	const [requestBody, setRequestBody] = useState(endpoint.examples.request || "{}");
+	const [requestBody, setRequestBody] = useState(endpoint.examples?.request || "{}");
 	const [response, setResponse] = useState("");
 	const [loading, setLoading] = useState(false);
 

@@ -3,6 +3,7 @@ import React from 'react';
 import { enableStaticRendering } from 'mobx-react';
 import RootStore from './root-store';
 import UserStore from './user-store';
+import DocumentStore from './document-store';
 // import PractitionerStore from './practitioner-store';
 // import PatientStore from './patient-store';
 // import ClinicStore from './clinic-store';
@@ -10,6 +11,7 @@ import UserStore from './user-store';
 type CompositeStore = {
   rootStore: RootStore,
   userStore: UserStore,
+  documentStore: DocumentStore,
 //   practitionerStore: PractitionerStore,
 //   patientStore: PatientStore,
 //   clinicStore: ClinicStore,
@@ -26,6 +28,7 @@ const initStores = () => {
   const initializedStores: CompositeStore = {
     rootStore,
     userStore: rootStore.userStore,
+	documentStore: rootStore.documentStore,
     // practitionerStore: rootStore.practitionerStore,
     // patientStore: rootStore.patientStore,
     // clinicStore: rootStore.clinicStore,

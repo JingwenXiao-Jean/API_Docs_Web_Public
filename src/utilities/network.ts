@@ -24,7 +24,7 @@ Axios.interceptors.request.use( // request 拦截器
     // }
     config.headers.authorization = token;
     config.headers['Content-Type'] = 'application/json'; // To avoid OPTION request
-    
+
     config.headers['ngrok-skip-browser-warning'] = 'any';
     // console.log('[Network Request]', config.baseURL + config.url);
     return config;

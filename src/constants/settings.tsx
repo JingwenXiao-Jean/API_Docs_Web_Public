@@ -15,7 +15,7 @@ const enum BackendUrl {
 const prodBackEndUrl = BackendUrl.PRODUCTION;
 const devBackEndUrl = BackendUrl.LOCAL_249;
 
-export const backEndBaseURL = devBackEndUrl;
+export const backEndBaseURL = "http://192.168.15.3:5078";
 export const aiVoiceBackendUrl = isProduction ? prodAiVoiceBackendUrl : "https://106b-120-150-254-137.ngrok-free.app"; // 'http://192.168.15.252:45467/';
 export const communityUrl = "https://community.propnova.com.au";
 export const encryptedPassword = "*ENCRYPTEDPASSWORD*";

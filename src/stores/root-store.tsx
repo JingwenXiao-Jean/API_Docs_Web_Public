@@ -1,6 +1,7 @@
 
 import { observable, action, makeObservable } from 'mobx';
 import UserStore from './user-store';
+import DocumentStore from './document-store';
 // import PractitionerStore from './practitioner-store';
 // import PatientStore from './patient-store';
 // import ClinicStore from './clinic-store';
@@ -25,6 +26,7 @@ export default class RootStore {
   };
 
   userStore;
+  documentStore;
 //   practitionerStore;
 //   patientStore;
 //   clinicStore;
@@ -37,6 +39,7 @@ export default class RootStore {
       notify: action,
     });
     this.userStore = new UserStore(this);
+    this.documentStore = new DocumentStore(this);
     // this.practitionerStore = new PractitionerStore(this);
     // this.patientStore = new PatientStore(this);
     // this.clinicStore = new ClinicStore(this);

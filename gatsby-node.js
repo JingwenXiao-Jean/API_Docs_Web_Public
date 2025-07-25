@@ -1,23 +1,29 @@
 const path = require("path");
-const fs = require("fs");
 const fetch = require("node-fetch");
 
 exports.createPages = async ({ actions }) => {
 	const { createPage } = actions;
 
+	const apiBaseUrl = "http://192.168.15.3:5078/api/APIDoc/Search/≽^•༚• ྀི≼ﾐ🎀・◦・ﾐ♡𝓗𝓮𝓵𝓵𝓸 𝓴𝓲𝓽𝓽𝔂";
+	const useRemoteApi = "true";
+
 	let data;
 
-	if (process.env.USE_REMOTE_API === "true") {
-		console.log("Fetching API docs from remote server...");
-		const response = await fetch("http://your-backend-server/api/docs");
+	if (useRemoteApi) {
+		console.log(`Fetching API docs from ${apiBaseUrl}...`);
+		const response = await fetch(`${apiBaseUrl}`);
+		if (!response.ok) {
+			throw new Error(`Failed to fetch data from backend: ${response.status}`);
+		}
 		data = await response.json();
 	} else {
 		console.log("Using local api-docs.json...");
 		const filePath = path.resolve("./static/api-docs.json");
-		const rawData = fs.readFileSync(filePath, "utf-8");
-		data = JSON.parse(rawData);
+		const rawData = require(filePath);
+		data = rawData;
 	}
 
+	// Create dynamic pages for each endpoint
 	data.endpoints.forEach((endpoint) => {
 		createPage({
 			path: `/endpoint/${endpoint.id}`,
